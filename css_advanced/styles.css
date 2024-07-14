@@ -1,4 +1,112 @@
-/*styles.css*/
+/* Base */
 body {
-  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
 }
+
+.container {
+  position: relative;
+  width: 1440px;
+  height: 3718px;
+  background-color: white;
+}
+
+/* Header */
+.header {
+  position: absolute;
+  left: 171.59px;
+  top: 35.02px;
+}
+
+.header .logo {
+  width: 167.02px;
+  height: 29.46px;
+  display: flex;
+  align-items: center;
+  gap: 18.02px;
+}
+
+.header .logo img {
+  width: 111.83px;
+  height: 12.58px;
+}
+
+.header .logo .Path {
+  width: 7.87px;
+  height: 11.85px;
+  background: white;
+}
+
+.header .menu {
+  justify-content: center;
+  align-items: flex-start;
+  gap: 52px;
+  font-size: 12px;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+}
+
+/* MainPart */
+.main-part {
+  position: absolute;
+  width: 100%;
+  height: 1093px;
+}
+
+.main-part .background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #071629;
+}
+
+.main-part .object {
+  position: absolute;
+  width: 1448.15px;
+  height: 1055px;
+  left: -4.08px;
+  top: -66px;
+  overflow: hidden;
+}
+
+.main-part .object img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Get schooled */
+.get-schooled {
+  position: absolute;
+  left: 377px;
+  top: 220px;
+  text-align: center;
+  color: white;
+  font-size: 120px;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* Smiles, Grin, Laugh */
+.smiles,
+.grin,
+.laugh {
+  position: absolute;
+  left: 704px;
+  top: 361px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  font-family: Source Sans Pro;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+/* Button */
+.button {
+  position: absolute;
+  width: 162px;
+  height: 44px;
+  left: 639px;
+  top: 419px;
+  box-shadow: 0px 2px 20px rgba(0, 0
